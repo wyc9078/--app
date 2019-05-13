@@ -1,0 +1,55 @@
+.flex-layout {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 .26rem;
+    margin-bottom: .2rem;
+    margin-top: .2rem;
+    height: .9rem;
+    width: 100%;
+    background: #fff;
+}
+.order-address {
+    margin-top: 60px;
+    background: #fff url("http://s1.mi.com/m/images/m/bd1.png") 0 0 repeat-x;
+    background-size: .52rem .08rem;
+}
+.pay-list img{
+    width: 23px;
+    flex-grow: 1;
+    margin-right: .2rem;
+}
+.pay-list p{
+    flex-grow: 17;
+}
+.alipay,
+.wxpay {
+    width: 12px !important;
+    margin-left: .16rem;
+}
+.order-footer {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 99;
+}
+.footer-left,
+.footer-right {
+    float: left;
+    width: 50%;
+    height: 1rem;
+    line-height: 1rem;
+}
+.footer-left {
+    background: #fff;
+    text-align: center;
+}
+.footer-right {
+    background: red;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+}

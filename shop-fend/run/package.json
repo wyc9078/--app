@@ -1,0 +1,20 @@
+{
+  "name": "run",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start server.js --watch -i max --name fend",
+    "restart": "pm2 restart server.js",
+    "stop": "pm2 stop fend",
+    "list": "pm2 list",
+    "log": "pm2 logs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "~4.16.0"
+  }
+}
